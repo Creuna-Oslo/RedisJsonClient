@@ -13,7 +13,7 @@ namespace RedisJsonClient
         public bool HasValue { get; }
         public T Value { get; } 
 
-        public T GetValueOrDefault(T @default)
+        public T GetValueOrDefault(T @default = default(T))
         {
             return HasValue ? Value : @default;
         }

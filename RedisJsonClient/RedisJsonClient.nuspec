@@ -11,7 +11,10 @@
         <projectUrl>https://github.com/Creuna-Oslo/RedisJsonClient</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>$description$</description>
-        <releaseNotes>Initial release.</releaseNotes>
+        <releaseNotes> 
+            * 0.9.1 - ConditionalValue.GetValueOrDefault() - added
+            * 0.9.0 - initial release
+        </releaseNotes>
         <copyright>$copyright$</copyright>
         <tags>Redis client json object typed</tags>
     </metadata>
